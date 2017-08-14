@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import FormDemo from "./com/formdemo";
-import InputDemo from "./com/inputdemo";
-import Clock from "./com/clock";
-import ButtonClick from "./com/buttonclick";
+import logo from "images/logo.svg";
+import FormDemo from "formdemo";
+import InputDemo from "inputdemo";
+import Clock from "components/clock";
+import ButtonClick from "components/buttonclick";
 import "./App.css";
 
 class App extends Component {
@@ -22,7 +22,6 @@ class App extends Component {
                 <Clock />
                 <FormDemo name="abc">
                     <InputDemo type="text" name="a1" placeholder="hehe...." />
-                    <InputDemo type="text" name="a2" placeholder="hehe...." />
                 </FormDemo>
                 <div id="abc" className="testimg">
                     <a href="">dmfsdmfdfdf uyl</a>

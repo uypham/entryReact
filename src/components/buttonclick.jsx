@@ -19,7 +19,7 @@ class ButtonDemo extends Component {
     render() {
         return (
             <p>
-                <a href="#" onClick={this.handleClick}>
+                <a href="" onClick={this.handleClick}>
                     Click tao nè
                 </a>
                 <span style={{ color: "red" }}>
